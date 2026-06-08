@@ -1,0 +1,49 @@
+.parallax-hero-component{
+
+    .parallax-hero-component-container{
+
+        .parallax-hero-component-hero{
+            height: 100vh;
+
+            background-image: url("https://c1.wallpaperflare.com/preview/1004/952/998/person-arm-reach-light.jpg");
+            background-size: cover;
+            background-position: center;
+
+            background-attachment: fixed;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            position: relative;
+
+            .parallax-hero-component-hero__overlay{
+                position: absolute;
+                inset: 0;
+
+                background: rgba(0,0,0,0.4);
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                color: white;
+                
+                h3{
+                    font-size: 40px;
+                }
+                .typing-text::after {
+                    content: "|";
+                    animation: blink 1s infinite;
+                }
+
+                @keyframes blink {
+                    50% {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+}

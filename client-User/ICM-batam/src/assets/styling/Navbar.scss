@@ -1,0 +1,84 @@
+.navigation-bar-component{
+
+    .navigation-bar-component-container{
+        
+        .navigation-bar-component-wrapper{
+            display: flex;
+            justify-content: space-around;
+            height: 100px;
+            //padding: 0 30px;
+            width: 100%;
+            background: linear-gradient(
+                135deg,
+                white 0%,
+                #004282 50%,
+                orangered 100%
+            );
+            .navigation-bar-component__logo-container{
+
+                img{
+                    width: 200px;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            .navigation-bar-component__link-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                .navigation-bar-component__links{
+                    
+                    a{
+                        color: white;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .navigation-bar-component__action-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                .navigation-bar-component__action-search{
+
+                    input{
+
+                    }
+                }
+                
+                .navigation-bar-component__action-register-button{
+
+                    button{
+                        background: none;
+                        color: white;
+                        border: solid 1px white;
+                        width: 100px;
+                    }
+                }
+
+                .navigation-bar-component__action-login-button{
+                    
+                    button{
+                        background: orangered;
+                        color: white;
+                        width: 100px;
+                    }
+                }
+            }
+
+            .navigation-bar__burger{
+                display:none
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .navigation-bar__burger{
+        display:block
+    }
+}
