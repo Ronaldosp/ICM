@@ -1,0 +1,107 @@
+.pastor-showcase-component{
+
+    .pastor-showcase-component-wrapper{
+        padding-top: 60px;
+        .pastor-showcase-component-container{
+            position: relative;
+
+            .pastor-showcase-component-content{
+                position: absolute;
+                top: 20%;
+                left: 5%;
+
+                display: flex;
+                align-items: center;
+                gap: 300px;
+
+                .pastor-card{
+                    position: relative;
+
+                    .pastor-showcase-component-thumbnail{
+    
+                        img{
+                            object-fit: cover;
+                            object-position: top;
+                        }
+                    }
+    
+                    .pastor-showcase-component-text{
+                        position: absolute;
+                        top: 70%;
+                        left: 85%;
+                        max-width: 300px;
+                       
+    
+                        // transform: translateY(-50%);
+    
+                        z-index: 2;
+                        .pastor-showcase-component-name{
+        
+                            h1{
+                                color:white;
+                                white-space: nowrap;
+                                word-break: break-word;
+                                font-family: "Parisienne", cursive;
+                            }
+                        }
+        
+                        .pastor-showcase-component-position{
+        
+                            h5{
+                                color:white;
+                                font-family: "Parisienne", cursive;
+                            }
+                        }
+                    }
+                }
+
+                .pastor-card.pastor-card--large {
+                    img {
+                        width: 400px;
+                        height: 400px;
+                    }
+
+                    h1 {
+                        font-size: 46px;
+                    }
+                }
+
+                .pastor-card.pastor-card--medium {
+
+                    img {
+                        width: 320px;
+                        height: 320px;
+                    }
+
+                    h1 {
+                        font-size: 32px;
+                    }
+                }
+
+                .pastor-card.pastor-card--small {
+
+                    img {
+                        width: 240px;
+                        height: 240px;
+                    }
+
+                    h1 {
+                        font-size: 28px;
+                    }
+                }
+
+            }
+
+            .pastor-showcase-component-top{
+                width: 100%;
+                height: 350px;
+            }
+
+            .pastor-showcase-container-bottom{
+                width: 100%;
+                height: 350px;
+                background-color: #004282;
+            }
+        }
+    }
+}

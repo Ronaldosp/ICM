@@ -1,5 +1,6 @@
 import ParallaxHero from "../components/ParallaxHero.jsx";
 import EventCarousel from "../components/EventCarousel.jsx";
+import PastorShowcase from "../components/PastorShowcase.jsx";
 
 export default function HomePage(){
 
@@ -7,6 +8,7 @@ export default function HomePage(){
         <div>
             <ParallaxHero/>
             <EventCarousel/>
+            <PastorShowcase/>
         </div>
     )
 }
