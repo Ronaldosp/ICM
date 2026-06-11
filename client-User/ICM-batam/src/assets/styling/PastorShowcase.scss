@@ -95,12 +95,28 @@
             .pastor-showcase-component-top{
                 width: 100%;
                 height: 350px;
+
+                .pastor-showcase-component-top-title{
+                    display: flex;
+                    justify-content: center;
+                    h1{
+                        font-family: "Parisienne", cursive;
+                        font-size: 120px;
+                        color: #ff8c00;
+                    }
+                }
             }
 
             .pastor-showcase-container-bottom{
                 width: 100%;
                 height: 350px;
-                background-color: #004282;
+                //background-color: #004282;
+                background: linear-gradient(
+                    135deg,
+                    white 0%,
+                    #004282 50%,
+                    orangered 100%
+                );
             }
         }
     }

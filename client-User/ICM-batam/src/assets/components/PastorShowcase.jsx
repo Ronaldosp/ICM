@@ -18,7 +18,7 @@ export default function PastorShowcase(){
 
                 return updated;
             });
-        }, 10000);
+        }, 7000);
 
         return () => clearInterval(interval);
     }, []);
@@ -134,8 +134,9 @@ export default function PastorShowcase(){
                         </div> */}
                     </div>
                     <div className="pastor-showcase-component-top">
-
-                    
+                        <div className="pastor-showcase-component-top-title">
+                            <h1>Our Leaders</h1>
+                        </div>
                     </div>
                     <div className="pastor-showcase-container-bottom">
 
