@@ -1,0 +1,92 @@
+
+.our-story-component{
+
+    .our-story-component-container{
+        padding: 60px 120px;
+        .our-story-component-wrapper{
+
+            .our-story-component-content{
+                display: flex;
+                justify-content:center ;
+                .our-story-component-content__title{
+                    width: 40%;
+                    h1{
+
+                    }
+                }
+
+                .our-story-component-content__description{
+                    width: 60%;
+                    h3{
+
+                    }
+                }
+            }
+
+            .our-story-component-divider{
+                border-bottom: 1px solid black;
+                padding: 30px;
+            }
+
+            .our-story-component-value-cards{
+
+                .our-story-component-value-cards__container{
+                    padding: 30px 0;
+
+                    .swiper-wrapper {
+                        align-items: stretch;
+                    }
+
+                    .swiper-slide {
+                        height: auto;
+                        display: flex;
+                    }
+
+                    .our-story-component-value-cards__title-container{
+                        padding-bottom: 20px;
+                        h2{
+
+                        }
+                    }
+
+                    .our-story-component-value-cards__card-container{
+                        width: 100%;
+                        border: 1px solid gray;
+                        padding: 20px 40px;
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        height: 100%;
+                        .our-story-component-value-cards__icon{
+                            padding-top: 20px;
+                            padding-bottom: 16px;
+                            img{
+                                width: 50px;
+                                height: 50px;
+                                object-fit: cover;
+                            }
+                        }
+
+                        .our-story-component-value-cards__title{
+                            
+                            h3{
+
+                            }
+                        }
+
+                        .our-story-component-value-cards__description{
+                            
+                            p{
+                                text-align: justify;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 3; // Maximum 3 lines
+                                -webkit-box-orient: vertical;
+                                overflow: hidden;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

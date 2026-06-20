@@ -1,5 +1,6 @@
 import {createBrowserRouter , redirect} from 'react-router-dom';
 import HomePage from '../views/HomePage';
+import AboutUsPage from '../views/AboutUsPage';
 import Layout from '../components/Layout'
 
 export default createBrowserRouter([
@@ -16,6 +17,11 @@ export default createBrowserRouter([
                 index:true,
                 path:"/",
                 element:<HomePage/>,
+            },
+            {
+                index:true,
+                path:"/aboutus",
+                element:<AboutUsPage/>,
             },
 
         ]

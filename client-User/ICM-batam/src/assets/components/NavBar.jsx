@@ -28,7 +28,7 @@ export default function NavBar(){
 
                     <div className="navigation-bar-component__link-container">
                         <div className="navigation-bar-component__links">
-                            <a onClick={() =>{ navigate("/")}}>About Us</a>
+                            <a onClick={() =>{ navigate("/aboutus")}}>About Us</a>
                         </div>
                         <div className="navigation-bar-component__links">
                             <a onClick={() =>{ navigate("/")}}>Located</a>
